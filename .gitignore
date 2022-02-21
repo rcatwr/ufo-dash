@@ -1,0 +1,9 @@
+.venv/
+.vscode/
+__pycache__/
+data_process.ipynb
+gdal/
+n-grams.ipynb
+scrape.ipynb
+test.csv
+dashboard.py
