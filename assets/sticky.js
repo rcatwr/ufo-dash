@@ -4,7 +4,7 @@ if (!window.dash_clientside) {
 
 window.dash_clientside.clientside = {
   sticky_func: function () {
-    var header = document.querySelector("div.menu");
+    var header = document.querySelector("div.menu-ufo");
 
     // When the user scrolls the page, execute myFunction
     window.onscroll = function () {
@@ -12,7 +12,7 @@ window.dash_clientside.clientside = {
     };
 
     // Get the header
-    var wrapper = document.querySelector("div.wrapper");
+    var wrapper = document.querySelector("div.content");
 
     // Get the offset position of the navbar
     var sticky = header.offsetTop;

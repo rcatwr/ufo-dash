@@ -50,5 +50,4 @@ us_state = [
     {"label": "Wisconsin", "value": "WI"},
     {"label": "Wyoming", "value": "WY"},
     {"label": "District of Columbia", "value": "DC"},
-    
 ]

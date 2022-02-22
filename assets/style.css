@@ -143,7 +143,7 @@ h3{
   }
 
 .sticky-offset {
-    padding-top: 98.82px;
+    padding-top:113px;
 }
 
 
@@ -259,6 +259,7 @@ label{
 
 #state-input{
    padding-top:.75em;
+   color:black;
 }
 
 
@@ -272,4 +273,17 @@ label{
      div.img-wrap > h2{
          padding-left: 1em;
      }
+     .sticky-offset {
+        padding-top:192.21px;
+    }
   }
+
+.footer p{
+    text-align: center;
+}
+
+.menu-ufo, .header{
+    z-index: 10;
+    background-color:black;
+    padding-bottom: 1em;
+}
