@@ -21,6 +21,8 @@ from states import us_state
 app = Dash(__name__)
 server = app.server
 
+app.title = 'UFOs in the USA'
+
 
 ## data process
 ufo = pd.read_csv(
