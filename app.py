@@ -19,6 +19,8 @@ from states import us_state
 
 
 app = Dash(__name__)
+server = app.server
+
 
 ## data process
 ufo = pd.read_csv(
@@ -395,4 +397,4 @@ app.clientside_callback(
     Input("sticky", "children"),
 )
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(debug=False)
