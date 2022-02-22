@@ -85,7 +85,7 @@ app.layout = html.Div(
                             children=[
                                 html.Div(
                                     children=[
-                                        html.Div("Select US State"),
+                                        html.Div("Select US state"),
                                         dcc.Dropdown(
                                             options=us_state,
                                             value="NY",
