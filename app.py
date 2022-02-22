@@ -1,4 +1,4 @@
-from turtle import bgcolor
+#from turtle import bgcolor
 from dash import Dash, html, dcc
 from dash.dependencies import ClientsideFunction, Input, Output
 from matplotlib.pyplot import autoscale, legend
